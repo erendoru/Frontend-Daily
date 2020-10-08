@@ -1,0 +1,451 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #e4ebfb;
+}
+
+.top {
+  height: 10vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top .button {
+  height: 50px;
+  width: 160px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  -webkit-box-shadow: 0 11px 30px -15px rgba(103, 120, 225, 0.5);
+          box-shadow: 0 11px 30px -15px rgba(103, 120, 225, 0.5);
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.top .button i {
+  margin-left: 15px;
+  font-size: 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.top .button:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.top .button:hover i {
+  -webkit-transform: translateX(7px);
+          transform: translateX(7px);
+}
+
+.mid-container {
+  height: 90vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mid-container .left {
+  width: 60%;
+  height: 100%;
+}
+
+.mid-container .left .left-top {
+  height: 40%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mid-container .left .left-top .product-designer {
+  height: 80%;
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  -webkit-box-shadow: 0 11px 30px -15px rgba(103, 120, 225, 0.5);
+          box-shadow: 0 11px 30px -15px rgba(103, 120, 225, 0.5);
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  max-width: 600px;
+}
+
+.mid-container .left .left-top .product-designer .title {
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.mid-container .left .left-top .product-designer .description {
+  color: #111127;
+}
+
+.mid-container .left .left-top .product-designer .job-description {
+  margin-top: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #111127;
+}
+
+.mid-container .left .left-top .product-designer .buttons {
+  width: 70%;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mid-container .left .left-top .product-designer .buttons .button {
+  background-color: #e7eafb;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.mid-container .left .left-top .product-designer .buttons .button:hover {
+  background-color: #c0c3db;
+}
+
+.mid-container .left .left-top .product-designer:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.mid-container .left .left-bottom {
+  height: 60%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mid-container .left .left-bottom .career-card {
+  background-color: white;
+  width: 90%;
+  height: 100px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 11px 30px -15px rgba(103, 120, 225, 0.5);
+          box-shadow: 0 11px 30px -15px rgba(103, 120, 225, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  max-width: 800px;
+}
+
+.mid-container .left .left-bottom .career-card .left-side {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mid-container .left .left-bottom .career-card .left-side .img {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #c0c3db;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 25px;
+  color: #757a9c;
+  font-size: 30px;
+}
+
+.mid-container .left .left-bottom .career-card .left-side .text {
+  margin-left: 10px;
+}
+
+.mid-container .left .left-bottom .career-card .left-side .text .title {
+  font-weight: 500;
+  font-size: 21px;
+  margin-bottom: 8px;
+}
+
+.mid-container .left .left-bottom .career-card .left-side .text .description {
+  color: #4b4b5f;
+}
+
+.mid-container .left .left-bottom .career-card .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 20px;
+}
+
+.mid-container .left .left-bottom .career-card .right-side p {
+  margin-left: 10px;
+}
+
+.mid-container .left .left-bottom .career-card:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  color: white;
+  background-color: #bdc3e4;
+}
+
+.mid-container .left .left-bottom .career-card:hover .left-side .text p {
+  color: white;
+}
+
+.mid-container .right {
+  height: 90vh;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.mid-container .right .filter {
+  height: 90%;
+  width: 40%;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 11px 30px -15px rgba(103, 120, 225, 0.5);
+          box-shadow: 0 11px 30px -15px rgba(103, 120, 225, 0.5);
+}
+
+.mid-container .right .filter .search {
+  height: 15%;
+  width: 100%;
+  border-bottom: 1px solid #c7c3c3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mid-container .right .filter .search i {
+  color: gray;
+  margin-right: 15px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.mid-container .right .filter .search input {
+  outline: none;
+  height: 50px;
+  width: 200px;
+  font-size: 30px;
+  border: none;
+}
+
+.mid-container .right .input-field {
+  height: 35%;
+  width: 100%;
+  padding: 30px;
+}
+
+.mid-container .right .input-field .title {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.mid-container .right .input-field ul {
+  list-style: none;
+}
+
+.mid-container .right .input-field ul li {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mid-container .right .input-field ul li input {
+  height: 25px;
+  width: 25px;
+  margin-right: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mid-container .right .input-field ul:checked + .job-checkbox {
+  background-color: #8a9cff;
+  border-color: #8a9cff;
+}
+
+.mid-container .right .location {
+  height: 35%;
+  width: 100%;
+  border-bottom: 1px solid #c7c3c3;
+  padding: 0px 30px;
+}
+
+.mid-container .right .location .location-title {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.mid-container .right .location ul {
+  list-style: none;
+  height: 80%;
+  width: 100%;
+}
+
+.mid-container .right .location ul li {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.mid-container .right .location ul li label {
+  font-size: 15px;
+}
+
+.mid-container .right .location ul li select {
+  height: 50px;
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: 2px solid #bfc4e2;
+  font-size: 20px;
+  font-weight: 400;
+  outline: none;
+  cursor: pointer;
+}
+
+.mid-container .right .location ul li select:focus {
+  border: 2px solid #8392e7;
+}
+
+.mid-container .right .bottom-btn {
+  height: 15%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mid-container .right .bottom-btn .btn {
+  height: 50px;
+  width: 200px;
+  background-color: #8f99dd;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  color: white;
+  -webkit-box-shadow: 0 11px 30px -15px rgba(103, 120, 225, 0.5);
+          box-shadow: 0 11px 30px -15px rgba(103, 120, 225, 0.5);
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.mid-container .right .bottom-btn .btn:hover {
+  background-color: #6778e1;
+}
+/*# sourceMappingURL=style.css.map */

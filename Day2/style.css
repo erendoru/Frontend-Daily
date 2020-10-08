@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f7f8fc;
+}
+
+body .card {
+  height: 400px;
+  width: 600px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 40px;
+  -webkit-box-shadow: 2px 3px 20px 0px rgba(200, 200, 201, 0.5);
+          box-shadow: 2px 3px 20px 0px rgba(200, 200, 201, 0.5);
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+body .card h3 {
+  font-size: 21px;
+}
+
+body .card .price-section {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .card .price-section .circle {
+  width: 72px;
+  height: 72px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+body .card .price-section .circle svg {
+  --circum: calc(2 * 3.14 * 33.5);
+}
+
+body .card .price-section .circle svg circle {
+  fill: none;
+  stroke-width: 5;
+  stroke: #dae1f5;
+  stroke-dasharray: var(--circum);
+  stroke-linecap: round;
+}
+
+body .card .price-section .circle svg circle:nth-child(2) {
+  stroke: #345ace;
+  stroke-dashoffset: calc(var(--circum) - var(--circum) * 60 / 100);
+}
+
+body .card .price-section .price {
+  margin-left: 30px;
+}
+
+body .card .price-section .price h2 {
+  font-weight: bolder;
+}
+
+body .card .price-section .price p {
+  font-size: 15px;
+}
+
+body .card .description {
+  height: 40%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .card .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .card .buttons .btn {
+  height: 40px;
+  width: 150px;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 30px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+body .card .buttons .white {
+  background-color: white;
+  border: 2px solid #bebebe;
+  color: black;
+}
+
+body .card:hover {
+  -webkit-box-shadow: 15px 5px 20px 5px rgba(169, 169, 173, 0.5);
+          box-shadow: 15px 5px 20px 5px rgba(169, 169, 173, 0.5);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+/*# sourceMappingURL=style.css.map */

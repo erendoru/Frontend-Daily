@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f8fc;
+  .card {
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 2px 3px 20px 0px rgba(#c8c8c9, 0.5);
+
+    transition: all 0.1s ease-in;
+    h3 {
+      font-size: 21px;
+    }
+
+    .price-section {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+
+      .circle {
+        width: 72px;
+        height: 72px;
+        transform: rotate(-90deg);
+        svg {
+          --circum: calc(2 * 3.14 * 33.5);
+          circle {
+            fill: none;
+            stroke-width: 5;
+            stroke: #dae1f5;
+            stroke-dasharray: var(--circum);
+            stroke-linecap: round;
+            &:nth-child(2) {
+              stroke: #345ace;
+              stroke-dashoffset: calc(var(--circum) - var(--circum) * 60 / 100);
+            }
+          }
+        }
+      }
+      .price {
+        margin-left: 30px;
+        h2 {
+          font-weight: bolder;
+        }
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+
+    .description {
+      height: 40%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    .buttons {
+      display: flex;
+      align-items: center;
+
+      .btn {
+        height: 40px;
+        width: 150px;
+        background-color: black;
+        border-radius: 20px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      .white {
+        background-color: white;
+        border: 2px solid rgb(190, 190, 190);
+        color: black;
+      }
+    }
+  }
+  .card:hover {
+    box-shadow: 15px 5px 20px 5px rgba(#a9a9ad, 0.5);
+    transform: scale(1.01);
+  }
+}
