@@ -25,12 +25,19 @@ body {
   transition: all 0.1s ease-in;
   box-shadow: 2px 5px 15px 2px rgb(202, 202, 202);
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+
+  .image{
+    height: 200px;
+  }
+
   img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
   &:hover {
-    transform: scale(1.01);
+    transform: scale(1.02);
   }
 }
 
@@ -49,8 +56,8 @@ body {
     height: 25px;
     background-color: royalblue;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     color: white;
   }
   .yellow {
