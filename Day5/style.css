@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  color: #cac7c7;
+}
+
+body {
+  background-color: #161e29;
+  padding: 50px;
+}
+
+.follower-count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  padding: 20px 30px;
+  background-color: red;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 20px;
+  background-color: #1b2431;
+}
+
+.follower-count .follower {
+  background-color: #161e29;
+  padding: 5px;
+  border-radius: 5px;
+  color: #cac7c7;
+  cursor: pointer;
+}
+
+.follower-count .follower i {
+  margin-right: 10px;
+}
+
+.card {
+  height: 220px;
+  width: 300px;
+  background-color: #1b2431;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-radius: 10px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.card .card-info {
+  margin-left: 15%;
+  font-size: 18px;
+}
+
+.profile {
+  background-color: #1b2431;
+  height: 220px;
+  width: 400px;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.profile h3 {
+  margin-bottom: 60px;
+}
+
+.profile .profile-card {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile .profile-card .foto {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  background-color: #c550a8;
+}
+
+.profile .profile-card p {
+  margin-left: 10px;
+}
+
+.profile .profile-card .mini {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+
+.skills {
+  height: 200px;
+  width: 500px;
+  padding: 30px 5px;
+}
+
+.skills h3 {
+  font-weight: 400;
+  font-size: 21px;
+}
+
+.skills .flex {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.skills .flex .skill {
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-right: 15px;
+  background-color: #1b2431;
+}
+/*# sourceMappingURL=style.css.map */
