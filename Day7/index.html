@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+
     <title>Service </title>
 </head>
 
 <body>
 
-    <div class="card">
+    <div class="header">
         <div class="section time">
             <i class="far fa-clock"></i>
             <p>30 min</p>
@@ -35,6 +37,99 @@
             <button class="btn hard">Hard</button>
         </div>
     </div>
+
+    <div class="search">
+        <h1>Search for recipes</h1>
+        <div class="search-input">
+            <i class="far fas fa-search"></i>
+            <input type="text" placeholder="Search recipe">
+        </div>
+    </div>
+
+
+    <div class="card">
+        <img src="images/sample-1.png" alt="food">
+        <div class="info">
+            <div class="info-title">
+                <h2>SUBSCRIBE TODAY</h2>
+                <H1>Never miss a recipe</H1>
+            </div>
+            <div class="mail">
+                <input type="text" placeholder="Your email address">
+                <button> Subscribe</button>
+            </div>
+            <div class="warning">
+                <p>We won't send you spam.<br> Unsubscribe at any time.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="food-card">
+        <img src="images/sample-2.png" alt="food">
+        <div class="info">
+            <h1>Spinach Salad</h1>
+            <p>Simple recipe for a weeknight or a celebration table. I promise it is one of the easiest salads you will
+                ever make!</p>
+            <div class="rate">
+                <i class="far fas far fa-star"></i>
+                <i class="far fas far fa-star"></i>
+                <i class="far fas far fa-star"></i>
+                <i class="far fas far fa-star"></i>
+                <i class="far fas far fa-star"></i>
+                <h3>14K</h3>
+            </div>
+        </div>
+        <div class="star">
+            <i class="far fas far fa-heart"></i>
+        </div>
+    </div>
+
+    <div class="component--recipe-6">
+        <a href="javascript:;" class="prev-btn">
+            <img src="images/icon-arrow-left.svg" alt="left icon">
+        </a>
+        <a href="javascript:;" class="next-btn">
+            <img src="images/icon-arrow-right.svg" alt="right icon">
+        </a>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="">
+                        <img src="images/sample-3.png" alt="food">
+                        <span class="title">Pancakes with yogurt</span>
+                    </a>
+                </div>
+                <div class="swiper-slide"> <a href="">
+                        <img src="images/sample-3.png" alt="food">
+                        <span class="title">Pancakes with yogurt</span>
+                    </a></div>
+                <div class="swiper-slide"> <a href="">
+                        <img src="images/sample-3.png" alt="food">
+                        <span class="title">Pancakes with yogurt</span>
+                    </a></div>
+                <div class="swiper-slide"> <a href="">
+                        <img src="images/sample-3.png" alt="food">
+                        <span class="title">Pancakes with yogurt</span>
+                    </a></div>
+                <div class="swiper-slide"> <a href="">
+                        <img src="images/sample-3.png" alt="food">
+                        <span class="title">Pancakes with yogurt</span>
+                    </a></div>
+                <div class="swiper-slide"> <a href="">
+                        <img src="images/sample-3.png" alt="food">
+                        <span class="title">Pancakes with yogurt</span>
+                    </a></div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"
+        integrity="sha512-VHsNaV1C4XbgKSc2O0rZDmkUOhMKPg/rIi8abX9qTaVDzVJnrDGHFnLnCnuPmZ3cNi1nQJm+fzJtBbZU9yRCww=="
+        crossorigin="anonymous"></script>
+
+    <script src="./app.js"></script>
 
 </body>
 
