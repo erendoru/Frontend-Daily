@@ -8,7 +8,5 @@
   },
   "author": "d0ru",
   "license": "MIT",
-  "dependencies": {
-    "react-icons": "^3.11.0"
-  }
+  "dependencies": {}
 }
