@@ -1,0 +1,4 @@
+[build]
+  base    = "Frontendaily"
+  publish = "Frontendaily/day11/"
+  command = "your build command"
